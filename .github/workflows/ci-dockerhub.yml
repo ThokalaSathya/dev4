@@ -27,7 +27,7 @@ jobs:
         run: echo "PYTHONPATH=." >> $GITHUB_ENV
         
       - name: Run tests
-        run: pytest -m pytest -q
+        run: pytest -q
       
       - name: Docker meta
         id: meta
